@@ -7,7 +7,7 @@ import java.io.*;
  * operation in place.)
  */
 public class URLfy{
-	public static void main(String args []){
+	public static void main(String[] args){
 		String input = IO.readString(); //reads input 
 		//String output = ""; //initial output string
 		input = input.trim(); //regex "    " -> " "
