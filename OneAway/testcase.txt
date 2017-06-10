@@ -1,0 +1,31 @@
+Testcase OneAway
+
+*The number is the amount of different characters 
+
+1. One character removed 
+Input "pale" "ple"
+Output true 
+
+2. One extra character
+Input "pales" "pale"
+Output true 
+
+3. One different character
+Input "pale" "bale"
+Output true 
+
+
+4. two different characters
+Input "pale" "bake"
+Output false 
+Reason: failed at line 43
+
+5. two extra characters 
+Input "paless" "pale"
+Output false 
+Reason: failed at line 23
+
+6. two characters removed 
+Input "pale" "pe"
+Output false
+Reason: failed at line 23
