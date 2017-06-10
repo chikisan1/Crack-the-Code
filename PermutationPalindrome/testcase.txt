@@ -1,0 +1,42 @@
+Test case for PP
+
+1. One character 
+Input: "a"
+Output: true
+
+2. 2 same characters 
+Input: "aa"
+Output: true
+
+3. 2 different characters and its permutation  
+Input: "ab"
+Input: "ba"
+Output: false
+
+4. 2 same 1 different and its permutation 
+Input "aba"
+Input "aab"
+Input "baa"
+Output: true
+
+5. 2 same 1 different and its permutation with spaces 
+Input "ab a"
+Input "a a b"
+Input "b aa"
+Output: true
+
+6. Blank space 
+Input: " "
+Output: true
+
+7. Odd amount of 2 different character
+Input "aaaddd"
+Output false
+
+8. Even amount of 1 character and odd amount of the other 
+Input "aaaaddd"
+Output true
+
+9. Even amount for both 
+Input "aaaadddd"
+Output true
