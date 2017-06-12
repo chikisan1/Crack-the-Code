@@ -1,0 +1,30 @@
+Testcase String Compression 
+
+1. One character 
+Input: "a"
+Output: a
+
+2. 2 same characters 
+Input: "aa"
+Output: aa
+
+3. 2 different characters 
+Input: "ab"
+Output: ab
+
+4. n same characters (ex: 3)
+Input: "aaa"
+Output: a3
+
+5. 3 different characters 
+Input: "abc"
+Output: abc
+
+6. 2 same 1 different 
+Input: "aab"
+Output: aab
+
+7. 2 same 2 different
+Input: "aabb"
+Output: aabb
+
