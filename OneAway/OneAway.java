@@ -4,11 +4,20 @@ public class OneAway{
 	There are three types of edits that can be performed on strings: insert a character, remove a character, 
 	or replace a character. Given 2 strings, write a function to check if they are one or zero edits away. 
 	*/
+
+	/*
+	Addressing comments 
+
+	Changed one to edits 
+
+	Does deleting a char from string take up more time, compared to readjusting the index for one of them?
+	Do I keep the second index within the for loop or just make a while with 2 indexes?
+	*/
 	public static void main(String [] args){
 
 		String str1 = IO.readString(); //read input
 		String str2 = IO.readString(); //read input
-		int one = 0; //count for edits 
+		int edits = 0; //count for edits 
 		int max = Math.max(str1.length(), str2.length());
 		int min = Math.min(str1.length(), str2.length());
 		StringBuilder sbmax = new StringBuilder(str1); // assigning max string to stringbuilder
@@ -31,16 +40,16 @@ public class OneAway{
 			if(sbmax.charAt(i) != sbmin.charAt(i)){
 				//when the string length is the same 
 				if(sbmax.length() == min){
-					one++;
+					edits++;
 				}
 				else{
 					sbmax.deleteCharAt(i); //delete the char in the max string
 					i--; //reset traverse 
-					one++;
+					edits++;
 				}
 
 			}
-			if(one > 1){
+			if(edits > 1){
 				System.out.println("false");
 				System.out.println(one);
 				return;

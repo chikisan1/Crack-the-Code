@@ -6,11 +6,24 @@ import java.io.*;
  * implementing in Java, please use a character array so that you can perform this
  * operation in place.)
  */
+
+/*
+Originally I was going to create a new string by adding seperated parts of the original string and add "%20"
+which would have resulted in an O(n) answer. Then I realized that I could just use the String .replace function 
+which I assume is constant time. With my knowledge of regex, I used .trim to reduce any extra space and reduced 
+it to a single space so that I can use .replace to replace the space with "%20". I also removed the unecessary "%20"
+at the end of the string. 
+
+After doing some testcases
+
+I was wrong, trim only eliminates the spaces in the begenning and end of the string. 
+*/
 public class URLfy{
 	public static void main(String[] args){
 		String input = IO.readString(); //reads input 
 		//String output = ""; //initial output string
-		input = input.trim(); //regex "    " -> " "
+		input = input.trim();
+		input = input.replaceAll("\\s+", "%20"); //regex "    " -> " "
 		/*
 		//O(n) solution 
 		String [] parse = input.split(" "); //removes " " and put the strings into arrays 
@@ -19,9 +32,8 @@ public class URLfy{
 		}
 		output = output.substring(0, output.length() - 3); //removes extra "%20" at the end of the string 
 		*/
-
 		//Using replace String 
-		String output = input.replace(" ", "%20"); // regex " " -> "%20"
-		System.out.println(output);
+		//String output = input.replace(" ", "%20"); // regex " " -> "%20"
+		System.out.println(input);
 	}
 }

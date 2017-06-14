@@ -1,0 +1,19 @@
+testcase 
+
+1. one character 
+input: "a"
+output: a
+2. two characters
+input: "ab"
+output: ab 
+3. two characters with space between them 
+input: "a b"
+output: a%20b
+
+4. two characters with space before and after them 
+input: " a b "
+output: a%20b
+
+5. two characters with multiple spaces in between them 
+input: " a          b "
+output: a%20b

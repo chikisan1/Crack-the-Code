@@ -6,10 +6,15 @@ public class StringC{
 	then retrun the original string. You can assume the string has only upper case of lower case. 
 	*/
 
+	/*Addressing Comments 
+	Adjusted the declaration of compare.
+	I tried Stringbuilder and it epically failed. So I gave up and just went with normal string. 
+
+	*/
+
 	public static void main(String [] args){
 		String str1 = IO.readString(); 
 		String str2 = "";
-		char compare = str1.charAt(0);
 		int count = 1;
 
 		//no need to compress words that are less than 3 characters
@@ -18,6 +23,7 @@ public class StringC{
 			return;
 		}
 
+		char compare = str1.charAt(0);
 		for(int i = 1; i < str1.length(); i++){
 			
 			if(compare == str1.charAt(i)){

@@ -12,6 +12,9 @@ public class PP{
 	Ex: Tact coa is true because "taco cat"
 		aagh is false
 	*/
+	/*
+	What would be different if I used a hash table instead of arraylist? 
+	*/
 
 	public static void main(String [] args){
 		String x = IO.readString(); //read input
