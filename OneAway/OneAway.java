@@ -17,6 +17,12 @@ public class OneAway{
 
 		String str1 = IO.readString(); //read input
 		String str2 = IO.readString(); //read input
+
+                System.out.println(oneAway(str1, str2));
+            
+	}
+
+        public static boolean oneAway(String str1, String str2) {
 		int edits = 0; //count for edits 
 		int max = Math.max(str1.length(), str2.length());
 		int min = Math.min(str1.length(), str2.length());
@@ -30,8 +36,7 @@ public class OneAway{
 
 		//if the difference between the larger string and the smaller string is more than 1 
 		if(max - min > 1){
-			System.out.println("false");
-			return;
+                        return false;
 		}
 
 		//traverse both strings 
@@ -50,13 +55,9 @@ public class OneAway{
 
 			}
 			if(edits > 1){
-				System.out.println("false");
-				System.out.println(one);
-				return;
+                                return false;
 			}
 		}
-		System.out.println("true");
-		System.out.println(one);
-		return;
-	}
+		return true;
+        }
 }
