@@ -43,22 +43,14 @@ public class RMatrix{
 			//starts the process from the four corners then move inwards one element at a time
 			for(;i < n; i++){
 				char right = matrix[m][i]; 
-				//System.out.println("lefttop: " + right);
 				char down = matrix[i][n];
-				//System.out.println("righttop: " + down);
 				char left = matrix[n][j];
-				//System.out.println("right bottom: " + left);
 				char up = matrix[j][m];
-				//System.out.println("left bottom: " + up);
 
 				matrix[m][i] = up;
-				//System.out.println("new lefttop: " + matrix[i][m]);
 				matrix[i][n] = right;
-				//System.out.println("new righttop: " + matrix[m][j]);
 				matrix[n][j] = down;
-				//System.out.println("new rightbottom: " + matrix[n][j]);
 				matrix[j][m] = left;
-				//System.out.println("new leftbottom: " + matrix[j][m]);
 				j--;
 			}
 			n--;
