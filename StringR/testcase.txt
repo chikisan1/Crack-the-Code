@@ -1,0 +1,13 @@
+Testcase
+
+1.
+input: waterbottle, erbottlewat
+output: true
+
+2.
+input: waterbottle, waterbottle
+output: true
+
+3. 
+input: waterbottle, waterbottl
+output: false
