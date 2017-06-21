@@ -1,0 +1,100 @@
+testcase 
+
+1. 2 x 2 
+
+g v 
+u o 
+
+u g 
+o v 
+
+2. 3 x 3 
+
+s c w 
+n w t 
+e p x 
+
+e n s 
+p w c 
+x t w
+
+3. 4 x 4
+
+u f f i 
+j t r x 
+w n x h 
+r t i k 
+
+r w j u 
+t n t f 
+i x r f 
+k h x i 
+
+4. 5 x 5
+n d a y u 
+c w j u f 
+k o v s j 
+b u d s i 
+h w o b b 
+
+h b k c n 
+w u o w d 
+o d v j a 
+b s s u y 
+b i j f u
+
+5. random 
+
+d k x t n e h p f y b a q f p y o s l k h d i j c i 
+c d c h j y i t n w q o k h x u o k a g t i h y s a 
+u o w y o k u b u o j w d o c j l f t l b f v k x t 
+t u b v g x d b h l l u h x t q r i a n l g b f n p 
+h h x y b l c d w y t c l x p x b f n g j a n k s n 
+a d w f b j t u s o y f x g y o e o v v t c c a g p 
+u b c w i w r u g p x l x j r k y g k n c l a f a p 
+d o k w a a i b w h q b n y x e c w c v k s i v l q 
+n l o h s l r u l o q b p j p n i x t u n b a i s t 
+c x n v q h i j w p j e w u q o l w a p n h d p d u 
+b b p t n b n i k d q d u b g o x i y t v n i t u s 
+n a s k p e b n i e n b n w b p w w d o j p v p h h 
+i b i c y f x o i k l t p k j a p l l e g x n g q j 
+y a x f q n k j c n v a b q v c n w y n p b o n v v 
+n j c x f l s y r w j a a n s y a f g a b f k u p n 
+a x u i r r p n j h n c l t a f i k y c d l q j u b 
+i a b l n n c u s n l d c u g g y d s u p p t v d j 
+k r h h x e p s t n b v p y c d e a a n e n g n n t 
+w d x l q o n s s g o b e n o s p q p d a a i p h c 
+v a n n r q a o j w c n h q u g h i d s q g d n u g 
+g c l q g i l h d t v a b n q a n w g u i k d o v l 
+n q h r b t j n f y j x e w t n g f n h g j p w y k 
+g p y u v k k x l n c n w r s j c j p x j s g r f w 
+i b i n t i i r h q q s i y c d n v t c p h d o q o 
+i v q a i v r i v y c v l l w y l w d e n f c b p g 
+j y e r f k w n b v l q y g s y l e t g n r h j q v 
+
+j i i g n g v w k i a n y i n b c n d u a h t u c d 
+y v b p q c a d r a x j a b a b x l o b d h u o d k 
+e q i y h l n x h b u c x i s p n o k c w x b w c x 
+r a n u r q n l h l i x f c k t v h w w f y v y h t 
+f i t v b g r q x n r f q y p n q s a i b b g o j n 
+k v i k t i q o e n r l n f e b h l a w j l x k y e 
+w r i k j l a n p c p s k x b n i r i r t c d u i h 
+n i r x n h o s s u n y j o n i j u b u u d b b t p 
+b v h l f d j s t s j r c i i k w l w g s w h u n f 
+v y q n y t w g n n h w n k e d p o h p o y l o w y 
+l c q c j v c o b l n j v l n q j q q x y t l j q b 
+q v s n x a n b v d c a a t b d e b b l f c u w o a 
+y l i w e b h e p c l a b p n u w p n x x l h d k q 
+g l y r w n q n y u t n q k w b u j y j g x x o h f 
+s w c s t q u o c g a s v j b g q p x r y p t c x p 
+y y d j n a g s d g f y c a p o o n e k o x q j u y 
+l l n c g n h p e y i a n p w x l i c y e b r l o o 
+e w v j f w i q a d k f w l w i w x w g o f i f k s 
+t d t p n g d p a s y g y l d y a t c k v n a t a l 
+g e c x h u s d n u c a n e o t p u v n v g n l g k 
+n n p j g i q a e p d b p g j v n n k c t j l b t h 
+r f h s j k g a n p l f b x p n h b s l c a g f i d 
+h c d g p d d i g t q k o n v i d a i a c n b v h i 
+j b o r w o n p n v j u n g p t p i v f a k f k y j 
+q p q f y v u h n d u p v q h u d s l a g s n x s c 
+v g o w k l g c t j b n v j h s u t q p p n p t a i 

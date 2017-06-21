@@ -16,7 +16,9 @@ at the end of the string.
 
 After doing some testcases
 
-I was wrong, trim only eliminates the spaces in the begenning and end of the string. 
+I was wrong, trim only eliminates the spaces in the begenning and end of the string. So instead I used regex 
+"\\s+", meaning all spaces in general, no matter what size, and replaced it with "%20". Also trim is necessary to remove the 
+spaces or else it will create unwanted "%20".
 */
 public class URLfy{
 	public static void main(String[] args){
@@ -32,8 +34,6 @@ public class URLfy{
 		}
 		output = output.substring(0, output.length() - 3); //removes extra "%20" at the end of the string 
 		*/
-		//Using replace String 
-		//String output = input.replace(" ", "%20"); // regex " " -> "%20"
 		System.out.println(input);
 	}
 }
